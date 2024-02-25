@@ -1,0 +1,17 @@
+@keyframes slide{
+    from{
+        transform: translate(-300px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0px);
+        opacity: 100;
+    }
+}
+
+.info{
+    animation: slide;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-delay: 300ms;
+}
